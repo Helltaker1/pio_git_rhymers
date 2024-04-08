@@ -1,9 +1,0 @@
-# Ignorowanie folderów i plików generowanych przez narzędzia i IDE
-/bin/
-/target/
-/.idea/
-*.iml
-
-# Ignorowanie plików wygenerowanych przez systemy operacyjne
-Thumbs.db
-ehthumbs.db
