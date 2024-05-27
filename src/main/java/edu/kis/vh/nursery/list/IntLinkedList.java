@@ -19,6 +19,8 @@ public class IntLinkedList {
     /**
      * An integer used for various purposes (currently unused).
      */
+
+    // TODO: Remove unused variable 'i' if it's not needed in the future
     private int i;
 
     /**
