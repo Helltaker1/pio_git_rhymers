@@ -8,6 +8,7 @@ public class RhymersJUnitTest {
     @Test
     public void testCountIn() {
         DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();
+        // TODO: Change the constant name to uppercase
         int testValue = 4;
         rhymer.countIn(testValue);
 
@@ -48,7 +49,7 @@ public class RhymersJUnitTest {
 
         int result = rhymer.peekaboo();
         Assert.assertEquals(EMPTY_STACK_VALUE, result);
-
+        // TODO: Change the constant name to uppercase and change the name to make it easier to analyze the code
         int testValue = 4;
         rhymer.countIn(testValue);
 
@@ -65,7 +66,7 @@ public class RhymersJUnitTest {
 
         int result = rhymer.countOut();
         Assert.assertEquals(EMPTY_STACK_VALUE, result);
-
+        // TODO: Change the constant name to uppercase and change the name to make it easier to analyze the code
         int testValue = 4;
         rhymer.countIn(testValue);
 

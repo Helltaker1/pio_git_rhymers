@@ -6,7 +6,7 @@ public class DefaultCountingOutRhymer {
     private static final int TOTAL_INIT_SIZE = -1;
     private static final int RETURN_VALUE = -1;
     private int[] numbers = new int[NUMBERS_ARRAY_SIZE];
-
+    // TODO: Move getTotal() method below the total variable declaration for better readability
     public int getTotal() {
         return total;
     }
